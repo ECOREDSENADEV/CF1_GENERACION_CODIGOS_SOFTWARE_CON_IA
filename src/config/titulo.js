@@ -1,1 +1,2 @@
-module.exports = 'Ecored Base PKG'
+module.exports =
+  'Introducción y aplicación de la inteligencia artificial generativa'
