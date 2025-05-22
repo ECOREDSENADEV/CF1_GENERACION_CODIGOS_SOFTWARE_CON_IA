@@ -234,7 +234,7 @@
                   img(src='@/assets/curso/temas/tema1/37.png', alt='Texto que describa la imagen')
 
             h3.text-center Salud
-            p.text-small Análisis de historial clínico, diagnóstico por medio de reconocimiento de imágenes, asistente clínico virtual.
+            p.mb-0 Análisis de historial clínico, diagnóstico por medio de reconocimiento de imágenes, asistente clínico virtual.
 
         .col-sm-6.col-lg-3.mb-4.mb-lg-0
           .tarjeta--boton.color-secundario.p-4.h-100
@@ -244,7 +244,7 @@
                   img(src='@/assets/curso/temas/tema1/38.png', alt='Texto que describa la imagen')
 
             h3.text-center Finanzas
-            p.text-small Chatbots bancarios, detección de fraude financiero, predicción de riesgos crediticios. 
+            p.mb-0 Chatbots bancarios, detección de fraude financiero, predicción de riesgos crediticios. 
 
         .col-sm-6.col-lg-3.mb-4.mb-sm-0
           .tarjeta--boton.color-secundario.h-100.p-4
@@ -254,7 +254,7 @@
                   img(src='@/assets/curso/temas/tema1/39.png', alt='Texto que describa la imagen')
 
             h3.text-center Logística y transporte
-            p.text-small Optimización de rutas de entrega, vehículos autónomos, gestión de inventario automático.
+            p.mb-0 Optimización de rutas de entrega, vehículos autónomos, gestión de inventario automático.
 
         .col-sm-6.col-lg-3
           .tarjeta--boton.color-secundario.p-4.h-100
@@ -264,7 +264,7 @@
                   img(src='@/assets/curso/temas/tema1/40.png', alt='Texto que describa la imagen')
 
             h3.text-center Agricultura
-            p.text-small Detección de enfermedades por reconocimiento de imágenes, predicción de cosechas, monitoreo de cultivos por drones.
+            p.mb-0 Detección de enfermedades por reconocimiento de imágenes, predicción de cosechas, monitoreo de cultivos por drones.
     
     separador
 
