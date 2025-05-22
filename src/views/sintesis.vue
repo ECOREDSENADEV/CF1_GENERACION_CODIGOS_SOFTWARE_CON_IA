@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Síntesis  sobre la introducción y aplicación de la inteligencia artificial generativa, con tres ejes principales: inteligencia artificial (historia, principios, aplicaciones, rol en software), herramientas generativas (características, herramientas, prompting) y prompt (técnicas, ejemplos y casos de uso).")
+          img(src="@/assets/curso/sintesis.svg", alt="Síntesis  sobre la introducción y aplicación de la inteligencia artificial generativa, con tres ejes principales: inteligencia artificial (historia, principios, aplicaciones, rol en <em>software</em>), herramientas generativas (características, herramientas, <em>Prompt</em>ing) y <em>Prompt</em> (técnicas, ejemplos y casos de uso).")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

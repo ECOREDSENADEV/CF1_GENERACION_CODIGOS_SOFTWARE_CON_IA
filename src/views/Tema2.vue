@@ -49,7 +49,7 @@
               .bg-color-white.p-4.h-100.shadow-app.tarjeta
                 img(src='@/assets/curso/temas/tema2/7.png' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Interacción natural
-                p.text-center Hace posible que asistentes virtuales y chatbots mantengan conversaciones coherentes y brinden asistencia en tiempo real, mejorando la experiencia del usuario y fortaleciendo la atención automatizada en empresas.
+                p.text-center Hace posible que asistentes virtuales y <em>Chatbots</em> mantengan conversaciones coherentes y brinden asistencia en tiempo real, mejorando la experiencia del usuario y fortaleciendo la atención automatizada en empresas.
               .bg-color-white.p-4.h-100.shadow-app.tarjeta
                 img(src='@/assets/curso/temas/tema2/8.png' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Innovación en el arte y el entretenimiento

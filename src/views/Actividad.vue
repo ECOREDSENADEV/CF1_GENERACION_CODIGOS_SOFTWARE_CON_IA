@@ -20,37 +20,36 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> fortalecer los conocimientos relacionados con inteligencia artificial generativa',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué es la inteligencia artificial generativa?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'Una inteligencia artificial capaz de reconocer patrones en datos existentes.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Un tipo de IA que solo realiza tareas repetitivas.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Un tipo de IA que solo realiza tareas repetitivas.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Un tipo de IA utilizada solo en videojuegos.',
               esCorrecta: false,
             },
           ],
@@ -60,28 +59,29 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            '¿Cuál es el propósito principal de un "<em>Prompt</em>" en inteligencia artificial?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Crear bases de datos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Text</em>',
+              texto:
+                'Dar instrucciones a la IA para obtener una respuesta específica.',
               esCorrecta: true,
             },
             {
+              id: 'c',
+              texto: 'Controlar la memoria de la IA.',
+              esCorrecta: false,
+            },
+            {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Incrementar la velocidad de procesamiento.',
               esCorrecta: false,
             },
           ],
@@ -90,30 +90,31 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Qué significa "contextualizar" en el contexto de los <em>Prompt</em>s?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Escribir mensajes largos sin especificar detalles.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
+                'Proporcionar suficiente información relevante para guiar la IA.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto: 'Cambiar el tipo de IA utilizada para la tarea.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Escribir un <em>Prompt</em> sin ejemplos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -122,28 +123,30 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Qué es la "iteración" en el proceso de interacción con modelos de IA?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
+              texto:
+                'Ajustar el <em>Prompt</em> o la solicitud para mejorar las respuestas generadas.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto:
+                'Generar múltiples respuestas con el mismo <em>Prompt</em>.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
+              texto: 'Usar el mismo <em>Prompt</em> siempre.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Probar diferentes modelos de IA al mismo tiempo.',
               esCorrecta: false,
             },
           ],
@@ -152,30 +155,30 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto: '¿Cómo puede la IA generativa ser útil en la vida cotidiana?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+              texto: 'Generando contenido como texto, imágenes y música.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Realizando tareas repetitivas únicamente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto:
+                'Controlando dispositivos electrónicos sin interacción humana.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Solucionando problemas de <em>hardware</em> en computadoras.',
               esCorrecta: false,
             },
           ],
@@ -185,28 +188,29 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el papel de la inteligencia artificial en el desarrollo de <em>software</em>?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Solo optimiza la velocidad de procesamiento de datos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
+              texto:
+                'Ayuda a generar y mejorar código, aumentar la productividad y resolver problemas complejos.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Realiza todas las tareas sin intervención humana.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Solo se utiliza para la depuración de código.',
               esCorrecta: false,
             },
           ],
@@ -215,29 +219,31 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: '¿Qué caracteriza a la Inteligencia Artificial Generativa?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto:
+                'Su capacidad para reconocer patrones en grandes volúmenes de datos.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Su capacidad para solo clasificar datos.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto:
+                'Su capacidad para generar contenido original como texto, imágenes y música.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto:
+                'Su capacidad para almacenar grandes cantidades de información.',
               esCorrecta: false,
             },
           ],
@@ -247,29 +253,29 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            '¿Cuál de los siguientes modelos es un ejemplo de inteligencia artificial generativa?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Naive Bayes',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'SVM (Máquinas de Soporte Vectorial)',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Árboles de decisión',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'GPT-4',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -278,19 +284,33 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+            '¿Cómo ha evolucionado la inteligencia artificial generativa desde sus inicios?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Ha avanzado desde sistemas de reglas simples hacia modelos complejos capaces de generar contenido creativo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Inicialmente, solo se usaba para tareas de clasificación de imágenes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Se ha centrado principalmente en mejorar el reconocimiento de voz.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'Solo ha mejorado la eficiencia en el procesamiento de datos.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -299,18 +319,32 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            '¿Qué distingue a la inteligencia artificial generativa de otros tipos de inteligencia artificial?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Su capacidad para ejecutar tareas físicas en el mundo real.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Su capacidad para procesar grandes volúmenes de datos en tiempo real.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Su capacidad para generar contenido nuevo a partir de ejemplos previos, como escribir textos o crear imágenes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Su capacidad para almacenar grandes cantidades de datos para la predicción futura.',
               esCorrecta: false,
             },
           ],
@@ -320,7 +354,7 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            'La IA generativa se limita a tareas de análisis de datos ya existentes.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -341,7 +375,7 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            'ChatGPT es un ejemplo de herramienta de IA generativa que permite crear texto y código.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -362,19 +396,19 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+            '<em>Prompt</em>Base y <em>Prompt</em> <em>Storm</em> son herramientas para generar imágenes realistas.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -383,19 +417,19 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'Las técnicas de <em>Prompt</em>ing ayudan a mejorar la interacción con modelos de IA generativa.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -404,19 +438,19 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            'Un <em>Prompt</em> efectivo es siempre corto, sin contexto y sin instrucciones claras.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',

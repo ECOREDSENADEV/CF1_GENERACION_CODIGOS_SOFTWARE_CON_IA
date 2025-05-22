@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Introducción y aplicación de la inteligencia artificial generativa',
     Description:
-      'Este componente formativo se centra en la comprensión conceptual de la inteligencia artificial generativa y su aplicabilidad en diversas áreas. Se exploran los fundamentos de la IA, su evolución histórica y su impacto tanto en la vida cotidiana como en la industria. Además, se profundiza en las características de las herramientas generativas de IA y se enseña cómo interactuar eficientemente con estos modelos mediante el uso adecuado de prompts. ',
+      'Este componente formativo se centra en la comprensión conceptual de la inteligencia artificial generativa y su aplicabilidad en diversas áreas. Se exploran los fundamentos de la IA, su evolución histórica y su impacto tanto en la vida cotidiana como en la industria. Además, se profundiza en las características de las herramientas generativas de IA y se enseña cómo interactuar eficientemente con estos modelos mediante el uso adecuado de <em>prompt</em>s. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -56,7 +56,7 @@ export default {
           },
           {
             numero: '1.4',
-            titulo: 'Papel en el desarrollo de software',
+            titulo: 'Papel en el desarrollo de <em>software</em>',
             hash: 't_1_4',
           },
         ],
@@ -83,12 +83,12 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Prompt',
+        titulo: '<em>Prompt</em>',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '3.1',
-            titulo: 'Principios de prompting',
+            titulo: 'Principios de <em>Prompt</em>ing',
             hash: 't_3_1',
           },
           {
@@ -99,7 +99,7 @@ export default {
           },
           {
             numero: '3.3',
-            titulo: 'Ejemplos de prompts efectivos y no efectivos  ',
+            titulo: 'Ejemplos de <em>Prompt</em>s efectivos y no efectivos  ',
             hash: 't_3_3',
           },
           {
@@ -187,9 +187,9 @@ export default {
     },
     {
       tema:
-        'Prompts de experto para ChatGPT: mejora tu marketing en segundos (Guía de prompts gratis)',
+        '<em>Prompt</em>s de experto para ChatGPT: mejora tu marketing en segundos (Guía de <em>Prompt</em>s gratis)',
       referencia:
-        'HubSpot Español. (9 de abril de 2025). 10 prompts de experto para ChatGPT: mejora tu marketing en segundos (Guía de prompts gratis). [Video] Youtube.  ',
+        'HubSpot Español. (9 de abril de 2025). 10 <em>Prompt</em>s de experto para ChatGPT: mejora tu marketing en segundos (Guía de <em>Prompt</em>s gratis). [Video] Youtube.  ',
       tipo: 'Vídeo',
       link: 'https://www.youtube.com/watch?v=zXv52OFkfYk',
     },
@@ -226,9 +226,9 @@ export default {
         'es un sistema matemático o computacional entrenado para realizar tareas específicas como clasificación, predicción, o generación de contenido. Los modelos de IA son entrenados con grandes volúmenes de datos y utilizan algoritmos para aprender patrones y tomar decisiones basadas en esos patrones. Los modelos generativos, como los basados en redes neuronales, pueden crear contenido nuevo, como textos e imágenes.',
     },
     {
-      termino: 'Prompt',
+      termino: '<em>Prompt</em>',
       significado:
-        'es una instrucción o entrada proporcionada a un modelo de IA generativa para guiar la generación de respuestas o resultados específicos. Los prompts pueden variar en complejidad y deben ser formulados de manera clara y precisa para obtener respuestas adecuadas. En el contexto de la IA, un prompt puede ser una pregunta, instrucción o descripción de lo que se espera del modelo.',
+        'es una instrucción o entrada proporcionada a un modelo de IA generativa para guiar la generación de respuestas o resultados específicos. Los <em>Prompt</em>s pueden variar en complejidad y deben ser formulados de manera clara y precisa para obtener respuestas adecuadas. En el contexto de la IA, un <em>Prompt</em> puede ser una pregunta, instrucción o descripción de lo que se espera del modelo.',
     },
     {
       termino: 'Transformador de lenguaje',
@@ -270,15 +270,15 @@ export default {
     },
     {
       referencia:
-        'Panamerican Business School. (2024). Qué es un prompt en IA. ',
+        'Panamerican Business School. (2024). Qué es un <em>Prompt</em> en IA. ',
       link:
-        'https://panamericanlatam.com/que-es-un-prompt-en-ia-y-para-que-sirve/',
+        'https://panamericanlatam.com/que-es-un-<em>Prompt</em>-en-ia-y-para-que-sirve/',
     },
     {
       referencia:
-        'Sancho, P. (2023). La IA está revolucionando el desarrollo de software. Dreams. ',
+        'Sancho, P. (2023). La IA está revolucionando el desarrollo de <em>software</em>. Dreams. ',
       link:
-        'https://www.dreams.es/transformacion-digital/modelos-de-comportamiento/la-ia-esta-revolucionando-el-desarrollo-de-software',
+        'https://www.dreams.es/transformacion-digital/modelos-de-comportamiento/la-ia-esta-revolucionando-el-desarrollo-de-<em>software</em>',
     },
     {
       referencia:

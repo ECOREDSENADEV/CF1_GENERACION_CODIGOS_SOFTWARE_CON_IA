@@ -12,8 +12,8 @@
 
     .bg-full-width-2.bg-fondo-1.mb-5
       .p-4.p-md-5
-        .row.mb-5
-          .col-lg-3.order-2
+        .row.mb-5.justify-content-center
+          .col-8.col-lg-3.order-2
             figure.position-relative
               img(src="@/assets/curso/intro/2.png", data-aos="zoom-in")
               img.pst-1(src="@/assets/curso/portada/banner-principal-decorativo-1.png")
@@ -27,7 +27,7 @@
                 .col-lg
                   .p-4
                     p.mb-0(data-aos="fade-up") Dentro de sus diversas ramificaciones, la inteligencia artificial generativa (IA gen) ha cobrado especial relevancia al difundirse ampliamente en la sociedad. Esta tecnología permite, a través de máquinas y computadoras, no solo automatizar tareas, sino también crear contenido original como textos, imágenes, audios y videos, entre otros. Su incorporación ha transformado la forma en que las personas se relacionan con la tecnología, aprovechando sus herramientas para enfrentar desafíos cada vez más complejos.
-            p.mb-0(data-aos="fade-up") Este componente formativo abordará conceptos clave para comprender y aprovechar los recursos que ofrece la IA gen, aplicándolos en diversas tareas tanto personales como empresariales. Se estudiarán sus principales aplicaciones y herramientas, así como los fundamentos del prompting, técnica esencial para interactuar de forma precisa con los modelos de IA. Además, se presentarán ejemplos prácticos y casos de uso en entornos reales, con el fin de ofrecer una visión completa sobre la utilidad y aplicabilidad de la IA gen en distintos contextos.
+            p.mb-0(data-aos="fade-up") Este componente formativo abordará conceptos clave para comprender y aprovechar los recursos que ofrece la IA gen, aplicándolos en diversas tareas tanto personales como empresariales. Se estudiarán sus principales aplicaciones y herramientas, así como los fundamentos del <em>Prompt</em>ing, técnica esencial para interactuar de forma precisa con los modelos de IA. Además, se presentarán ejemplos prácticos y casos de uso en entornos reales, con el fin de ofrecer una visión completa sobre la utilidad y aplicabilidad de la IA gen en distintos contextos.
     
     
               

@@ -30,7 +30,6 @@
     .bg-full-width.bg-fondo-2.mb-5
       .px-4.px-md-5
         p.mb-5 A continuación, se presenta los principales hitos en la evolución de la inteligencia artificial, desde sus antecedentes conceptuales en el siglo XIX hasta los avances más relevantes del siglo XX.
-        LineaTiempoB.color-secundario.mb-5(:datos="datosLineaTiempoB")
         LineaTiempoA.color-acento-contenido.mb-5(:datos="datosLineaTiempoA")
     
     .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -244,7 +243,7 @@
                   img(src='@/assets/curso/temas/tema1/38.png', alt='Texto que describa la imagen')
 
             h3.text-center Finanzas
-            p.mb-0 Chatbots bancarios, detección de fraude financiero, predicción de riesgos crediticios. 
+            p.mb-0 <em>Chatbots</em> bancarios, detección de fraude financiero, predicción de riesgos crediticios. 
 
         .col-sm-6.col-lg-3.mb-4.mb-sm-0
           .tarjeta--boton.color-secundario.h-100.p-4
@@ -269,7 +268,7 @@
     separador
 
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.4	Papel en el desarrollo de software
+      h2 1.4	Papel en el desarrollo de <em>software</em>
     
     .row.mb-5
       .col-lg-4.order-2
@@ -277,8 +276,8 @@
           img(src="@/assets/curso/temas/tema1/41.png", data-aos="zoom-in")
       .col-lg-8.order-1.mb-3.mb-lg-0
         .bg-color-4.p-4.mb-3(data-aos="fade-left")
-          p.mb-0 Una de las áreas que ha sido impulsada significativamente por la inteligencia artificial es el desarrollo de software. Gracias a esta tecnología disruptiva, se han automatizado múltiples tareas, lo que ha permitido mejorar la productividad y elevar la calidad de los sistemas. La IA se está aplicando en distintos ámbitos dentro del desarrollo de software, tales como la detección de errores, las pruebas automatizadas, la gestión de proyectos, la documentación, la seguridad, el diseño de experiencia de usuario (UX) (Finio y Downie, 2024) y, de manera destacada en este curso, la generación de código.
-        p(data-aos="fade-left") Mediante herramientas avanzadas, la inteligencia artificial contribuye a acelerar procesos técnicos y a respaldar una toma de decisiones más precisa y oportuna. A continuación, se describen las principales áreas de aplicación de la inteligencia artificial en el desarrollo de software, con ejemplos específicos que ilustran cada uso.
+          p.mb-0 Una de las áreas que ha sido impulsada significativamente por la inteligencia artificial es el desarrollo de <em>software</em>. Gracias a esta tecnología disruptiva, se han automatizado múltiples tareas, lo que ha permitido mejorar la productividad y elevar la calidad de los sistemas. La IA se está aplicando en distintos ámbitos dentro del desarrollo de <em>software</em>, tales como la detección de errores, las pruebas automatizadas, la gestión de proyectos, la documentación, la seguridad, el diseño de experiencia de usuario (UX) (Finio y Downie, 2024) y, de manera destacada en este curso, la generación de código.
+        p(data-aos="fade-left") Mediante herramientas avanzadas, la inteligencia artificial contribuye a acelerar procesos técnicos y a respaldar una toma de decisiones más precisa y oportuna. A continuación, se describen las principales áreas de aplicación de la inteligencia artificial en el desarrollo de <em>software</em>, con ejemplos específicos que ilustran cada uso.
     
     .bg-full-width.bg-fondo-slider
       .p-4.p-md-5
@@ -354,7 +353,7 @@
                 img(src="@/assets/curso/temas/tema1/50.png")
             .col-lg-7
               h5 Diseño arquitectónico
-              p Creación de arquitecturas de software eficientes y escalables, alineadas con buenas prácticas. 
+              p Creación de arquitecturas de <em>software</em> eficientes y escalables, alineadas con buenas prácticas. 
               p.mb-0 <b>Ejemplo:</b> Arquitectura de la solución, donde se automatiza el diseño técnico del sistema e infraestructura necesaria para un despliegue eficiente.  
     
     .bg-full-width.bg-color-5
@@ -363,7 +362,7 @@
           .col-lg-auto
             img(src="@/assets/curso/temas/tema1/51.png", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0.text-white Actualmente la IA ha transformado considerablemente el desarrollo de software, automatizando tareas repetitivas, mejorando la productividad, optimizando la toma de decisiones, facilitando las pruebas y las depuraciones, permitiendo la personalización de las experiencias de usuarios y prediciendo las tendencias del mercado. Con el desarrollo de estas capacidades de la IA, se ha impulsado la eficiencia, la calidad y se sigue innovando en la programación moderna (Sancho, 2023).
+            p.mb-0.text-white Actualmente la IA ha transformado considerablemente el desarrollo de <em>software</em>, automatizando tareas repetitivas, mejorando la productividad, optimizando la toma de decisiones, facilitando las pruebas y las depuraciones, permitiendo la personalización de las experiencias de usuarios y prediciendo las tendencias del mercado. Con el desarrollo de estas capacidades de la IA, se ha impulsado la eficiencia, la calidad y se sigue innovando en la programación moderna (Sancho, 2023).
     
         
 
@@ -374,48 +373,84 @@ export default {
   name: 'Tema1',
   data: () => ({
     mostrarIndicadorTarjetaAudio: true,
-    datosLineaTiempoB: [
-      {
-        titulo: '01 de marzo',
-        texto:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus augue, pulvinar ac auctor at, pellentesque id diam. Praesent maximus, felis sollicitudin pharetra vestibulum, turpis tortor tincidunt augue, in efficitur urna diam eleifend magna.',
-        icono: require('@/assets/curso/temas/tema1/3.png'),
-      },
-      {
-        titulo: '02 de marzo',
-        texto:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus augue, pulvinar ac auctor at, pellentesque id diam. Praesent maximus, felis sollicitudin pharetra vestibulum, turpis tortor tincidunt augue, in efficitur urna diam eleifend magna.',
-        icono: require('@/assets/curso/temas/tema1/3.png'),
-      },
-      {
-        titulo: '03 de marzo',
-        texto:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus augue, pulvinar ac auctor at, pellentesque id diam. Praesent maximus, felis sollicitudin pharetra vestibulum, turpis tortor tincidunt augue, in efficitur urna diam eleifend magna.',
-        icono: require('@/assets/curso/temas/tema1/3.png'),
-      },
-      {
-        titulo: '04 de marzo',
-        texto:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus augue, pulvinar ac auctor at, pellentesque id diam. Praesent maximus, felis sollicitudin pharetra vestibulum, turpis tortor tincidunt augue, in efficitur urna diam eleifend magna.',
-        icono: require('@/assets/curso/temas/tema1/3.png'),
-      },
-    ],
     datosLineaTiempoA: [
       {
-        ano: '100.000 - 10.000 A.C.',
-        titulo: 'Período Paleolítico',
-        texto: 'Pieles, pelo de animales, hojas, huesos y conchas.',
-      },
-      {
-        ano: '10.000 - 5.000 A.C.',
-        titulo: 'Periodo Mesolítico',
+        ano: '1842',
+        titulo: 'De los números a la poesía',
         texto:
-          'Broches hechos con hueso, abrigos, gorros, botas y zapatillas de cuero.',
+          'Ada Lovelace vio el potencial de las computadoras más allá de las matemáticas.',
       },
       {
-        ano: '10.000 - 5.000 A.C.',
-        titulo: 'Periodo Neolítico',
-        texto: 'Vestimenta de fibras animales y vegetales, pulseras de marfil.',
+        ano: '1921',
+        titulo: 'Se introduce la palabra "robot"',
+        texto:
+          'Karel Čapek visiona la definición de robots artificiales, dando origen al término robot.',
+      },
+      {
+        ano: '1943',
+        titulo: 'Las neuronas se vuelven artificiales',
+        texto:
+          'McCulloch y Pitts desarrollaron el primer modelo matemático de neuronas artificiales, sentando las bases de las redes neuronales artificiales.',
+      },
+      {
+        ano: '1950',
+        titulo: 'Turing Test',
+        texto:
+          'Alan Turing plantea una prueba para identificar comportamiento inteligente en las máquinas.',
+      },
+      {
+        ano: '1956',
+        titulo: 'Nace el término inteligencia artificial',
+        texto:
+          'John McCarthy en una conferencia de Dartmouth, usa por primera vez el término inteligencia artificial, marcando el inicio de esta disciplina.',
+      },
+      {
+        ano: '1956',
+        titulo: 'El primer programa de IA',
+        texto:
+          'Newell, Simón y Shaw crean Logic Theorist, considerado el primer programa de IA.',
+      },
+      {
+        ano: '1961',
+        titulo: 'Unimate.',
+        texto:
+          'George Devol diseña Unimate, considerado el primer robot industrial, para General Motors',
+      },
+      {
+        ano: '1964',
+        titulo: 'Eliza',
+        texto:
+          'Joseph Weizenbaum crea ELIZA, el primer chatbot (programa informático que simula una conversación humana mediante texto).',
+      },
+      {
+        ano: '1966',
+        titulo: 'Shakey',
+        texto:
+          'Shakey es el primer robot móvil de propósito general, capaz de analizar su entorno para razonar y planificar sus acciones según el entorno y así tomar decisiones en cuanto a sus movimientos. Marcó el camino hacia la robótica inteligente y los coches autónomos.',
+      },
+      {
+        ano: '1974 - 1980',
+        titulo: 'Invierno IA',
+        texto:
+          'Se invierte menos en investigación en el área, debido a que baja el interés en la IA por las limitaciones técnicas de la época.',
+      },
+      {
+        ano: '1986',
+        titulo: 'RNNs',
+        texto:
+          'Michael Jordán presenta una arquitectura para el aprendizaje secuencial, llamada redes neuronales recurrentes, diseñada para el procesamiento de información en secuencia y el aprendizaje de datos ordenados en el tiempo.',
+      },
+      {
+        ano: '1987 - 1993',
+        titulo: 'Segundo Invierno IA',
+        texto:
+          'Se da el segundo invierno en la IA por la combinación de expectativas no cumplidas, las limitaciones tecnológicas del momento y los fracasos comerciales que se habían tenido.',
+      },
+      {
+        ano: '1997',
+        titulo: 'Deep Blue',
+        texto:
+          'Deep Blue, una supercomputadora creada por IBM, vence al campeón mundial de ajedrez Garry Kasparov, lo que marca un hito y hace renacer el interés por la IA.',
       },
     ],
   }),
